@@ -26,7 +26,7 @@ refs_counts = [count1, count2, count3]
 refs_names = ["events", "ads", "wom"]
 
 pyplot.pie(refs_counts, labels=refs_names, autopct="%.1f%%", shadow=True, explode=[0, 0, 0])
-pyplot.title("References")
+pyplot.title("Marketing references")
 pyplot.axis("equal")
 pyplot.show()
 
