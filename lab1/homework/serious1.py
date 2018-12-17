@@ -9,10 +9,12 @@ html_content = '''
 '''
 
 gmail = GMail('Trung<trngle0409@gmail.com>','colenemmei')
-msg = Message('Lê Thành Trung - Đơn xin nghỉ ốm',to='c4e.techkidsvn@gmail.com>',html=html_content)
+msg = Message('Lê Thành Trung - Đơn xin nghỉ ốm',to='hai761991@gmail.com>',html=html_content)
 
 now = datetime.datetime.now()
-if now.hour >= 7:
-    gmail.send(msg)
-else:
-    print("Wait until 7AM!")
+while True:
+    if now.hour >= 7:
+        gmail.send(msg)
+        break
+    else:
+        print("Wait until 7AM!")
