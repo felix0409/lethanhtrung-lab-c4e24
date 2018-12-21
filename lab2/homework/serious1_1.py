@@ -27,8 +27,6 @@ for li in li_list:
     title = li.h3.a.string
     singer = li.h4.a.string
     link = li.h3.a["href"]
-    # print(title)
-    # print(link)
     songs = OrderedDict({ 
         "Title": title,
         "Singer": singer,
