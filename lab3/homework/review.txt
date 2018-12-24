@@ -1,0 +1,23 @@
+- We should use functions because they help us to organize programs into chunks that match
+how we think about the problem.
+
+- def NAME( PARAMETERS ):
+	STATEMENTS
+
+- to call/use a function: import NAMEOFFUNCtion
+
+- The return statement is followed an expression. This expression
+will be evaluated and returned to the caller.
+
+Functions return values can be used to build more complex expressions.
+
+return a
+
+- No, we use return if you have something to return then do so, if not then don't.
+
+- Inside a function, the values that are passed get assigned to
+variables called parameters/arguments.
+If we want to find the absolute value of a number, we have to indicate what the number is.
+The arguments/parameters can be either simple values, list, or expressions.
+
+- from LocationToFile import Function
